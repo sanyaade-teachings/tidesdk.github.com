@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://TideSDK.github.com
+title: TideSDK
+subtitle: Desktop App development for Mac, Windows and Linux. HTML5, JavaScript and CSS3 plus the power of Python, Ruby or PHP when you need it.
+author: David Pratt (for TideSDK)
 simple_search: http://google.com/search
 description:
 
@@ -36,9 +36,9 @@ category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 8          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
-recent_posts: 5       # Posts in the sidebar Recent Posts section
+recent_posts: 8       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
 titlecase: true       # Converts page and post titles to titlecase
@@ -64,8 +64,8 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
-twitter_tweet_count: 4
+twitter_user: tidesdk
+twitter_tweet_count: 8
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
@@ -89,7 +89,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: tidesdkblog
 disqus_show_comment_count: false
 
 # Google Analytics
