@@ -12,3 +12,150 @@ CONTRIBUTORS:
 - Sharry Stowell
 
 */
+
+.navbar .nav {
+	float: right;
+}
+
+.navbar-inner {
+	background: #e35354;
+	-moz-box-shadow: 0px 3px 0px rgba(230,103,103,.25);
+	-webkit-box-shadow: 0px 3px 0px rgba(230,103,103,.25);
+	box-shadow: 0px 3px 0px rgba(230,103,103,.25);
+	height: 50px;
+}
+
+.navbar-inner .logo {
+	text-indent: -9999px;
+	background: url('../images/logo.png');
+	width: 57px;
+	height: 13px;
+	margin-top: 18px; /* Align Middle */
+	cursor: pointer;
+}
+
+.navbar-inner ul li div {
+	text-indent: -9999px;
+	height: 13px;
+	margin-top: 10px; /* Align Middle */
+	cursor: pointer;
+}
+
+.navbar-inner ul .about {
+	background: url('../images/menu/about.png');
+	width: 45px;
+}
+
+.navbar-inner ul .contribute {
+	background: url('../images/menu/contribute.png');
+	width: 84px;
+}
+
+.navbar-inner ul .community {
+	background: url('../images/menu/community.png');
+	width: 86px;
+}
+
+.navbar-inner ul .learn {
+	background: url('../images/menu/learn.png');
+	width: 42px;
+}
+
+.navbar-inner ul .download {
+	background: url('../images/menu/download.png');
+	width: 78px;
+}
+
+.navbar-inner ul .blog {
+	background: url('../images/menu/blog.png');
+	width: 34px;
+}
+
+.navbar-inner ul .twitter {
+	background: url('../images/menu/twitter.png');
+	width: 59px;
+}
+
+.navbar .active a {
+	background: url('../images/menu/arrow.png') no-repeat bottom center;
+	height: 30px;
+}
+
+#header {
+	height: 50px;
+}
+
+#feature {
+	background: url('../images/bg.png');
+	-moz-box-shadow: 0px 3px 0px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0px 3px 0px rgba(0,0,0,.15);
+	box-shadow: 0px 3px 0px rgba(0,0,0,.15);
+}
+
+#feature .description {
+	text-indent: -9999px;
+	background: url('../images/description.png');
+	width: 645px;
+	height: 172px;
+	margin: 30px auto;
+}
+
+#feature .download {
+	background: url('../images/download.png');
+	width: 242px;
+	height: 68px;
+	margin: 0 auto 10px auto;
+	position: relative;
+	cursor: pointer;
+}
+
+#feature .download span {
+	position: absolute;
+	top: -1px;
+	right: 3px;
+}
+
+.content {
+	font-family:"Trebuchet MS", sans-serif;
+	margin-top: 20px;
+}
+
+.content p {
+	margin-top: 10px;
+	line-height: 2;
+}
+
+.content h1 {
+	line-height: 38px;
+	font-size: 36px;
+	padding-left: 50px;
+	margin: 20px 0px;
+}
+
+.content .about {
+	background: url('../images/icons/about.png') no-repeat center left;
+}
+
+.content .contribute {
+	background: url('../images/icons/contribute.png') no-repeat center left;
+}
+
+.content .community {
+	background: url('../images/icons/community.png') no-repeat center left;
+}
+
+.content .learn {
+	background: url('../images/icons/learn.png') no-repeat center left;
+}
+
+.content .download {
+	background: url('../images/icons/download.png') no-repeat center left;
+}
+
+.content li {
+	line-height: 2;
+}
+
+footer {
+	margin-top: 30px;
+}
