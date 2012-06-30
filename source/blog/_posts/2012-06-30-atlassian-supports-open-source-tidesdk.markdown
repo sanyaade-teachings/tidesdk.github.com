@@ -18,6 +18,6 @@ We are both extremely pleased and grateful that Atlassian has descided to suppor
 * Bamboo OnDemand 100 Remote Agents, Unlimited Jobs (Community)
 * Confluence OnDemand 2000 Users (Community)
 
-In fact, we are already been making great use of the software. [nazcasistemas](https://github.com/nazcasistemas) has imported the legacy of Titanium Desktop for reference while [dubcanada](https://github.com/dubcanada) has reviewed the issue history for issues we are bringing forward for categorization and to align these with our release goals.
+In fact, we've already been making great use of the software. [nazcasistemas](https://github.com/nazcasistemas) has imported the legacy of Titanium Desktop for reference while [dubcanada](https://github.com/dubcanada) has reviewed the issue history for issues we are bringing forward for categorization and to align these with our release goals.
 
 Many thanks Atlassian for your generous support!
