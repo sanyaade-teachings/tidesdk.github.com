@@ -129,7 +129,7 @@ $(function() {
 			entries.each(function(i, entry) {
 				if ( i === limit ) return false;
 				var targetContainer = $('<div>', { class: 'span4' });
-				item.title = $(entry).find('title').text().replace("<![CDATA[", "").replace("]]>", "");
+				item.title = $(entry).find('title').text();
 				item.content = $(entry).find('content').html().substring(0, 250) + "...";
 				item.link = $(entry).find('link').attr('href');
 				targetContainer.append('<h3>' + item.title + '</h3><p>' + item.content + '</p><a href="' + item.link + '">Read more &raquo;</a>');
