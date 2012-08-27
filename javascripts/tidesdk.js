@@ -119,7 +119,7 @@ $(function() {
 
 	// get blog posts
 	$.ajax({
-		url: '/atom.xml',
+		url: 'http://www.tidesdk.org/atom.xml',
 		success: function(data) {
 			var entries = $(data).find("entry"),
 				i = 0,
