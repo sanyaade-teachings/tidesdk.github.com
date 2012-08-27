@@ -1,190 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>TideSDK :: App Development</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Desktop App development for Linux, Mac, Windows using HTML5, Javascript, CSS3, and a little help from PHP, Python, Ruby if you need it!" />
-    <meta name="keywords" content="desktop,app,php,python,ruby,javascript,html5,css3,css,html,create,make,build,deploy,multi,platform,multiple,os,windows,mac,apple,linux" />
-    <meta name="robots" content="index, follow" />
-    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
-    <!--<link href="stylesheets/bootstrap-responsive.min.css" rel="stylesheet">-->
-    <link href="stylesheets/tidesdk.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="favicon.ico">
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="100">
-    <div id="header" class="row">
-      <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <div class="span12">
-              <div class="row">
-                <div class="span1">
-                  <a href="/"><h1 class="logo">TideSDK :: App Development</h1></a>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>TideSDK | Create multi-platform desktop apps with HTML5, CSS3, and JavaScript</title>
+        
+        <meta name="description" content="Desktop App development for Linux, Mac, Windows using HTML5, Javascript, CSS3, and a little help from PHP, Python, Ruby if you need it!">
+        <meta name="keywords" content="desktop,app,php,python,ruby,javascript,html5,css3,css,html,create,make,build,deploy,multi,platform,multiple,os,windows,mac,apple,linux">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="http://fonts.googleapis.com/css?family=Exo:400,600,700" rel="stylesheet" type="text/css">
+        <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+        <link href="stylesheets/tidesdk.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <script src="javascripts/modernizr-2.6.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Main Content -->
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#"><img src="images/tidesdk-logo.png" height="35" width=""></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                            <li><a href="http://www.tidesdk.org/blog/">Our Blog</a></li>
+                            <li><a href="#support">Support</a></li>
+                            <li><a href="https://github.com/TideSDK/TideSDK" class="github"><img src="images/ico-github.png" width="24" height="24" alt="Watch TideSDK on github"></a></li>
+                            <li><a href="https://twitter.com/TideSDK" class="twitter"><img src="images/ico-twitter.png" width="24" height="24" alt="Follow TideSDK on Twitter"></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="span8 offset3">
-                  <ul class="nav">
-                    <li><a href="#about"><div class="about">ABOUT</div></a></li>
-                    <li><a href="#contribute"><div class="contribute">CONTRIBUTE</div></a></li>
-                    <li><a href="#community"><div class="community">COMMUNITY</div></a></li>
-                    <li><a href="#learn"><div class="learn">LEARN</div></a></li>
-                    <li><a href="#download"><div class="download">DOWNLOAD</div></a></li>
-                    <li><a href="/blog/"><div class="blog">BLOG</div></a></li>
-                    <li><a href="https://twitter.com/tideSDK" target="_blank"><div class="twitter">TWITTER</div></a></li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div id="feature">
+
         <div class="container">
-          <div class="span12">
-            <a href="https://github.com/TideSDK/TideSDK/downloads">
-              <div class="description">
-                Desktop App development for Linux, Windows, and Mac using HTML5, JavaScript and CSS3 plus the power of PHP, Python, and Ruby when you need it.
-              </div>
-              <div class="download">
-                <span class="version"><img src="images/version/v.gif"><img src="images/version/,.gif"><img src="images/version/space.gif"><img src="images/version/1.gif"><img src="images/version/,.gif"><img src="images/version/2.gif"><img src="images/version/,.gif"><img src="images/version/0.gif"></b>
-              </div>
-            </a>
-          </div>
+            
+            <!-- feature apps and intro -->
+
+            <div class="row">
+                <div class="span12 center">
+                    <h1><strong>Create multi-platform desktop apps</strong><br>with HTML5, CSS3, and JavaScript</h1>
+                    <p>TideSDK, formerly known as Titanium Desktop is the best way to<br>create beautiful, unique desktop apps using your web development skills.</p>
+                    <p><a href="" class="primary-btn" data-toggle="modal" data-target="#dl-modal">Download v1.3.0</a> <a href="http://tidesdk.multipart.net/docs/user-dev/generated/" class="secondary-btn">Docs</a></p>
+                    <div id="feature-carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <!-- <img src="images/feature.png" width="960" height="560" alt="feature app"> -->
+                                <img src="images/screen-mac.jpg" width="957" height="560" alt="TideSDK apps on Mac OSX">
+                                <div class="carousel-caption">
+                                    <p><span class="prod-title">Wunderlist</span> Mac OSX desktop app by 6Wunderkinder created with TideSDK.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/screen-linux.jpg" width="957" height="560" alt="TideSDK apps on Linux">
+                                <div class="carousel-caption">
+                                    <p><span class="prod-title">Wunderlist</span> Linux desktop app by 6WunderKinder created with TideSDK.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/screen-windows.jpg" width="957" height="560" alt="TideSDK apps on Windows">
+                                <div class="carousel-caption">
+                                    <p><span class="prod-title">SimpLESS and Wunderlist</span> Windows desktop apps by Kiss and 6WunderKinder respectively, created with TideSDK.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#feature-carousel" class="carousel-control left" data-slide="prev" >&lsaquo;<span class="text-prev">Windows</span></a>
+                        <a href="#feature-carousel" class="carousel-control right" data-slide="next"><span class="text-next">Linux</span>&rsaquo;</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="container">
-        <div class="span12">
-          <div class="content">
-            <div id="about">
-              <h1 class="about">A little details on what this is...</h1>
-              <p><b>TideSDK</b> (<i>formerly Titanium Desktop</i>) is a remarkable project inherited from Appcelerator. It is now managed as community open source project by group dedicated to the availability of this unique solution.
-            <br><br>
-              The ability to deploy a Webkit-based desktop application across all <b>three major desktop operating systems</b>, with privileged access to native APIs, has empowered web developers to escape the browser and deliver rich, "always on" desktop apps.
-            <br><br>  
-              Users create applications using familiar <b>HTML5, JavaScript and CSS</b> technologies. Beyond this, the unique support for <b>Python, PHP and Ruby</b> extend the capabilities of <b>TideSDK</b> beyond the realm of any competitive framework. Further, our plans include the expansion and extension <b>TideSDK</b>'s API's for even better, more complex, and reliable user experiences on the desktop as we move forward.
-              </p>
+
+
+    <!-- get started -->
+    <div class="gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="span12 center">
+                    <h2 class="get-started">Get Started with TideSDK</h2>
+                </div>
+                <div class="span4 steps">
+                    <h3>Download</h3>
+                    <p>First things first. Go ahead and grab the <a href="" data-toggle="modal" data-target="#dl-modal">latest stable version</a> of the SDK for your operating system and follow the <a href="http://tidesdk.multipart.net/docs/user-dev/generated/#!/guide/getting_started">instructions</a> to set it up. You're ready to rock!</p>
+                </div>
+                <div class="span4 steps">
+                    <h3>Build</h3>
+                    <p>TideSDK's versatility allows you to couple your favorite web technologies with TideSDK's <a href="http://tidesdk.multipart.net/docs/user-dev/generated/#!/api">powerful API</a> to build native cross-platform desktop apps.</p>
+                </div>
+                <div class="span4">
+                    <h3>Deploy</h3>
+                    <p>When you're done, TideSDK will aid you in <a href="http://tidesdk.multipart.net/docs/user-dev/generated/">creating an app package</a> for the operating system of your choosing &mdash; say what?</p>
+                </div>
             </div>
-            
-            <hr>
-            
-            <div id="contribute">
-              <h1 class="contribute">Interested in helping out?</h1>
-              <p>
-                To offer your help directly, make sure you have signed a Contributor Agreement. Your contribution is assigned to the Project. The project holds the rights to the code, copyright, branding and domains. 
-            <br><br>
-              Make contact with us on #tidesdk (via IRC on irc.freenode.net) or on our mailing list so we can help find work that interest you and fits with the skills you are bringing to the project. There are many areas that you can provide help including programming, documentation, translation, marketing, graphic design and more.
-            <br><br>
-              Clone the git repository for the project you are wishing to contribute to (see below). We employ a workflow that involves branching for fixes and features and merging back to the master once the work has been approved (and tests are passing). Details are available in our wiki.
-            <br><br>
-              Beyond direct involvement with the software, you can contribute by offering help to other users, being patient while obtaining help, and spreading the word about TideSDK through social channels such as twitter, facebook or others. Writing a blog post or make a presentation about TideSDK to a group are other avenues to spread the word about TideSDK.
-            <br><br>
-              The project also has basic financial and service needs. Offers of equipment use or softare licensing, bounties or prizes for critical bug fixes (or features), or providing legal or adminstrative services to the Project are other possible avenues of contribution.
-              </p>
-            </div>
-            
-            <hr>
-            
-            <div id="community">
-              <h1 class="community">Drop by and see us!</h1>
-              <p>
-                Join our growing community to communicate on anything TideSDK. We're a friendly group. Whether you need help, want to offer support, or just hang with us as we propell TideSDK forward; your invited to participate. We gain momentum and energy by receiving your feedback, comments, inspiration, examples, challenges or issues. Were greater when we act as a community to build great software.
-              <br><br>
-              <ul>
-                <li>Join our mailing list at <a href="https://groups.google.com/forum/#!forum/tidesdk">https://groups.google.com/forum/#!forum/tidesdk</a>.</li>
-                <li>Report bugs or issues to <a href="https://github.com/TideSDK/TideSDK/issues">https://github.com/TideSDK/TideSDK/issues</a>.</li>
-                <li>Come and chat with us on IRC - freenode.net #tidesdk.</li>
-                <li>Follow us on Twitter <a href="https://twitter.com/tidesdk" class="twitter-follow-button" data-show-count="false">Follow @tidesdk</a>.</li>
-                <li>Vist our blog at <a href="http://tidesdk.gitub.com/blog">http://tidesdk.gitub.com/blog</a>.</li>
-              </ul>
-              </p>
-            </div>
-            
-            <hr>
-            
-            <div id="learn">
-              <h1 class="learn">Learn a little about TideSDK</h1>
-              <p>
-                TideSDK is all about discovering that you're not just a web developer. You have the tools and skills for desktop development without knowing it. While we make every effort to make it easy for you to be productive, you will quickly learn it is possible to build highly sophisticated apps using TideSDK's capabilities. These are revealed in our support documentation and resources. The following is a short list of that spans development to deployment. A more extensive list of resources to availabassist you is available on our <a href="https://github.com/TideSDK/TideSDK/wiki">wiki</a>.
-              <br><br>
-              <ul>
-                <li><a href="https://github.com/TideSDK/TideSDK/wiki/Getting-Started-Guide">Getting Started Guide</a></li>
-                <li><a href="http://tidesdk.readthedocs.org/en/latest">User API Documentation</a></li>
-                <li><a href="https://github.com/TideSDK/TideSDK/wiki/TideSDK%20Tutorials">TideSDK Tutorials</a></li>
-                <li><a href="https://github.com/TideSDK/TideSDK/wiki/Full-Page-CSS3-Layouts">CSS3 Layouts</a></li>
-                <li><a href="https://github.com/TideSDK/TideSDK/wiki/Using-TideSDK-with-PHP">Using TideSDK with PHP</a></li>
-                <li><a href="https://github.com/TideSDK/TideSDK/wiki/Using-TideSDK-with-Python">Using TideSDK with Python</a></li>
-                <li>[Using TideSDK with Ruby]</li>
-                <li><a href="https://github.com/TideSDK/TideSDK/wiki/Embedding-and-Using-NodeJS">Embedding and Using NodeJS</a></li>
-                <li><a href="https://github.com/TideSDK/TideSDK/wiki/Submitting-Your-TideSDK-App-to-the-Apple-App-Store">Submitting Your TideSDK App to the Apple App Store</a></li>
-              </ul>
-              </p>
-            </div>
-            
-            <hr>
-            
-            <div id="download">
-              <h1 class="download">Get TideSDK</h1>
-              <p>
-                Titanium Desktop SDK 1.2 Release Candidate 4 is now available for download. Additional features in the release include:
-                <blockquote>Fix local storage on OSX 10.7<br>
-              Thread object overwrite in HTTPClient</blockquote>
-              Read the Release Notes for details on all new features and improvements.<br><br>
-              Download and Installation<br><br>
-              
-              Don't forget to <a href="https://github.com/TideSDK/">Follow Us On GitHub</a><br><br>
-              
-              Download Links for Titanium Desktop SDK 1.2.0 Release Candidate 4:
-              <ul>
-                <li><a href="https://github.com/downloads/TideSDK/TideSDK/desktopsdk-1.2.0.RC4-win32.zip">Windows</a></li>
-                <li><a href="https://github.com/downloads/TideSDK/TideSDK/desktopsdk-1.2.0.RC4-osx.zip">Mac OS X</a></li>
-                <li><a href="https://github.com/downloads/TideSDK/TideSDK/desktopsdk-1.2.0.RC4-linux-i386.zip">Linux 32-bit</a></li>
-                <li><a href="https://github.com/downloads/TideSDK/TideSDK/desktopsdk-1.2.0.RC4-linux-x86_64.zip">Linux 64-bit</a></li>
-              </ul>
-              You may download the related API Documentation here.<br><br>
-              To install, you’ll want to download the appropriate distribution above and then extract into your Titanium directory.<br><br>
-              For example, on OSX, your Titanium directory will be under either /Library/Application Support/Titanium or~/Library/Appcelerator Support/Titanium<br><br>
-              On Linux ~/.titanium<br><br>
-              On Windows 7 C:\ProgramData\Titanium and on Windows XP C:\Documents and Settings\All Users\Application Data\Titanium<br><br>
-              Once you locate your Titanium directory, extract the zip file into this directory. The zip file will expand the contents and create/overlay some new directories for 1.2.0-RC4.<br><br>
-              NOTE for OSX users who use Safari to download: Safari by default will auto uncompress your downloads, how handy. However, if you have a directory named desktopsdk, your extracted directory will be renamed.<br><br>
-              Now, you’ll need to restart Titanium Studio to pick up the new release. Once restarted, remember to change your application SDK version and then click the ‘Save’ button.<br><br>
-              You should now be able to test with the release candidate software.
-             </p>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="row">
-      <div class="container">
-        <div class="span12">
-          <footer>
-            <p>&copy; 2012 David Pratt (For TideSDK)</p>
-          </footer>
+
+            <!-- benefits and features -->
+        <div class="container">
+            <div class="row">
+                <div class="span12 center">
+                    <h2>Build <span id="textOS">Windows</span> apps with <span id="textLang">HTML5 &amp; CSS3</h2>
+                    <p>It's easy to understand why thousands of developers love TideSDK. Trust us, you'll love it too!</p>
+                </div>
+            </div>
+            <div class="row hidden-phone">
+                <div class="span12 center">
+                    <img src="images/sample-code.jpg" width="946" height="341" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="span6">
+                    <h3>Simple &amp; intuitive</h3>
+                    <p class="gray">
+                        Use a simple and familiar API (accessible in the DOM) to reach the system and native desktop UIs. You know HTML5 &amp; CSS3? Since TideSDK is Webkit based, you can utilize your exisiting skills to quickly build a UI for your app.
+                    </p>
+                </div>
+                <div class="span6">
+                    <p>
+                        Sprinkle in some PHP, Python, and/or Ruby for enhanced features. Hook into TideSDK's API that can leverage system resoources. Once you're happy with your creation, package the app for the operating system of your choice.
+                    </p>
+                    <p class="center"><img src="images/os-list.png" width="317" height="77" alt="list of supported OSs"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span6">
+                    <h3>Seamless, from web to desktop</h3>
+                    <p>
+                        Develop your desktop apps quickly using HTML5, CSS3 and JavaScript. Extend the functionality of your app with a scripting language your are comfortable with. Available are: Python, PHP, or Ruby.
+                    </p>
+                    <ul class="langlist">
+                        <li><i class="icon-check"></i> HTML5</li>
+                        <li><i class="icon-check"></i> CSS3</li>
+                        <li><i class="icon-check"></i> JavaScript</li>
+                    </ul>
+                    <ul class="langlist">
+                        <li><i class="icon-check"></i> Python</li>
+                        <li><i class="icon-check"></i> PHP</li>
+                        <li><i class="icon-check"></i> Ruby</li>
+                    </ul>
+                </div>
+                <div class="span6 center">
+                    <img src="images/box-lang.jpg" width="469" height="373" alt="box of languages" class="hidden-phone">
+                </div>
+            </div>
+
+            <!-- support -->
+
+            <div class="row">
+                <div class="span12 center">
+                    <a name="support"></a>
+                    <h2>We're here to help</h2>
+                    <p>
+                        TideSDK is open source and is commited to incubating the technologies of tomorrow (that will continue to implement our APIs). A strong community behind TideSDK results in the best support a developer could wish for. Stay up-to-date, join in to discuss roadblocks and make suggestions.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span3">
+                    <ul class="help-links unstyled">
+                        <li><a href="https://groups.google.com/forum/#!forum/tidesdk" class="secondary-btn">Jump into the discussion</a></li>
+                        <li><a href="http://tidesdk.multipart.net/docs/user-dev/generated/#!/api" class="secondary-btn">Check out the API docs</a></li>
+                        <li><a href="https://github.com/TideSDK/TideSDK" class="secondary-btn">We're on github</a></li>
+                        <li><a href="http://tidesdk.multipart.net/docs/user-dev/generated/" class="secondary-btn">Easily get started</a></li>
+                        <li><a href="https://github.com/TideSDK/TideSDK/issues" class="secondary-btn">Help us improve</a></li>
+                        <li><a href="irc://irc.freenode.net/tidesdk" class="secondary-btn">#tidesdk on freenode.net</a></li>
+                        <li><a href="http://twitter.com/TideSDK" class="secondary-btn">Follow @TideSDK</a></li>
+                        <li><a href="http://www.tidesdk.org/blog/" class="secondary-btn">Read our blog</a></li>
+                    </ul>
+                </div>
+                <div class="span3">
+                    <ul class="help-links-add unstyled hidden-phone">
+                        <li>Join our mailing list</li>
+                        <li>Documentation</li>
+                        <li>Source code</li>
+                        <li>Tutorials</li>
+                        <li>Report a bug</li>
+                        <li><abbr title="Internet Relay Chat">IRC</abbr></li>
+                        <li>Twitter</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="span6 rescue">
+                    <img src="images/life-preserver.jpg" width="393" height="505" alt="TideSDK support" class="pull-right hidden-phone">
+                </div>
+            </div>
         </div>
-      </div>
+    <div class="gray-bg map">
+        <div class="container">
+            <!-- world map -->
+
+            <div class="row">
+                <div class="span12 center">
+                    <h2>Start riding the tide,<br><strong>become part of the worldwide community</strong></h2>
+                    <div id="world-map" class="hidden-phone"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12 center">
+                    <ul class="people"></ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="javascripts/jquery.min.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <script src="javascripts/bootstrap-scrollspy.js"></script>
-    <script src="javascripts/jquery.smooth.js"></script>
-    <script type="text/javascript">
-    $('.nav a').smoothScroll({offset: -60});
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
+        <div class="container">
+            <div class="row">
+                <div class="span12 center">
+                    <h2>Fresh from the press<br><strong>read our TideSDK blogazine</strong></h2>
+                </div>    
+            </div>
+            <div class="row feed">
+            </div>
+
+            <div class="row">
+                <div class="span12 center ty">
+                    <h3>Thank you</h3><br>
+                    <img src="images/ty-atlassian.png" width="219" height="94" alt="Atlassian">
+                    <img src="images/ty-github.png" width="143" height="94" alt="github">
+                    <img src="images/ty-thankyou.png" width="74" height="94" alt="?">
+                    <img src="images/ty-jira.png" width="155" height="94" alt="jira">
+                    <img src="images/ty-balsamiq.png" width="143" height="94" alt="balsamiq">
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; 2012 TideSDK</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <div class="modal hide fade" id="dl-modal">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Sorry, not yet :(</h3>
+            </div>
+            <div class="modal-body">
+                <p>The team is feverishly working to release v1.3.0 with updated libraries and stability. If you're adventurous you can <a href="https://github.com/TideSDK/TideSDK">check the progress on github</a>. In the meantime, we recommend you use the <a href="https://github.com/TideSDK/TideSDK/downloads">latest stable version sans updates</a>.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn secondary-btn" data-dismiss="modal">OK, thanks</a>
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="javascripts/jquery-1.8.0.min.js"><\/script>')</script>
+        <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="javascripts/raphael-min.js"></script>
+        <script type="text/javascript" src="javascripts/kartograph.min.js"></script>
+        <script type="text/javascript" src="javascripts/tidesdk.js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>
