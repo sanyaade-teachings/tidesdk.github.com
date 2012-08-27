@@ -135,12 +135,6 @@ $(function() {
 				targetContainer.append('<h3>' + item.title + '</h3><p>' + item.content + '</p><a href="' + item.link + '">Read more &raquo;</a>');
 				feedTarget.append(targetContainer);
 			});
-			// for ( i; i < 3; i++ ) {
-			// 	var section = $('div', { class: 'span4' }),
-			// 		entry = $('<h3>' + $(entries[i]).find('title').html() + '</h3><p>' + $(entries[i]).find('content').html() + '</p>');
-			// 	entry.appendTo(section);
-			// 	section.appendTo(feedTarget);
-			// }
 		}
 	});
 
