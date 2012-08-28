@@ -177,24 +177,6 @@ h4 {
     margin: 0 auto;
 }
 
-.marker{
-    border-left: @orange solid 2px;
-    margin-left: 66px;
-    position: relative;
-    top: -1px;
-    padding: 8px 0;
-    padding-left: 12px;
-
-    a{
-        color: @orange;
-        text-decoration: none;
-
-        &:hover{
-            text-decoration: underline;
-        }
-    }
-}
-
 .grey {
     background: #f1f1f1;
     border-top: #e7e7e7 solid 1px;
@@ -235,6 +217,7 @@ h4 {
 
 .sliding-doors {
     span {
+        vertical-align: bottom;
         display: inline;
         color: #60869a;
     }
@@ -242,6 +225,30 @@ h4 {
 
 .example {
     margin-top: 50px;
+    height: 300px;
+    background: url(../img/laptop.png) 455px 10px no-repeat;
+    position: relative;
+
+    img {
+        position: absolute;
+    }
+
+    .window1 {
+        top: 50px;
+        left: 200px;
+        z-index: 2;
+    }
+
+    .window2 {
+        top: 20px;
+        left: 100px;
+        opacity: 0.5;
+    }
+
+    .tidesdk-app {
+        top: 56px;
+        left: 250px;
+    }
 }
 
 .center-img {
@@ -330,7 +337,7 @@ h4 {
         background: url(../img/worldmap.png);
         margin: 30px auto;
 
-        .marker{
+        .marker {
             display: block;
             position: absolute;
             width: 1px;
@@ -340,7 +347,7 @@ h4 {
             margin: 0;
             padding: 0;
 
-            &:after{
+            &:after {
                 position: absolute;
                 top: -44px;
                 left: -12px;
@@ -452,6 +459,97 @@ h4 {
                 text-decoration: underline;
             }
         }
+    }
+}
+
+.screen-slider {
+    width: 960px;
+    height: 559px;
+    position: relative;
+
+    img {
+        position: absolute;
+
+    }
+
+    .left, .right {
+        position: absolute;
+        top: 255px;
+        height: 53px;
+        width: 100px;
+        font-size: 14px;
+        color: #2f2f2f;
+        line-height: 53px;
+        text-decoration: none;
+    }
+
+    .left {
+        left: -90px;
+        background: url(../img/arrow-left.png) left center no-repeat;
+        padding-left: 25px;
+
+        &:hover {
+            left: -100px;
+            -moz-transition: left 0.5s;
+            -webkit-transition: left 0.5s;
+            transition: left 0.5s;
+        }
+    }
+
+    .right {
+        right: -90px;
+        background: url(../img/arrow-right.png) right center no-repeat;
+        padding-right: 25px;
+        text-align: right;
+
+        &:hover {
+            right: -100px;
+            -moz-transition: right 0.5s;
+            -webkit-transition: right 0.5s;
+            transition: right 0.5s;
+        }
+    }
+
+    .marker {
+        border-left: @orange solid 2px;
+        margin-left: 66px;
+        position: absolute;
+        top: 468px;
+        padding: 8px 0;
+        padding-left: 12px;
+        padding-top: 100px;
+
+        a {
+            color: @orange;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .slide-controller {
+        bottom: -20px;
+        right: 75px;
+    }
+}
+
+.slide-controller {
+    position: absolute;
+    height: 12px;
+
+    a {
+        display: block;
+        float: left;
+        width: 12px;
+        height: 12px;
+        background: url(../img/progress.png) center no-repeat;
+        margin-right: 3px;
+    }
+
+    .active {
+        background: url(../img/progress-active.png) center no-repeat;
     }
 }
 

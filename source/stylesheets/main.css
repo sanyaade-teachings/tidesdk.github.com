@@ -155,21 +155,6 @@ h4 {
   display: block;
   margin: 0 auto;
 }
-.marker {
-  border-left: #f15623 solid 2px;
-  margin-left: 66px;
-  position: relative;
-  top: -1px;
-  padding: 8px 0;
-  padding-left: 12px;
-}
-.marker a {
-  color: #f15623;
-  text-decoration: none;
-}
-.marker a:hover {
-  text-decoration: underline;
-}
 .grey {
   background: #f1f1f1;
   border-top: #e7e7e7 solid 1px;
@@ -202,11 +187,32 @@ h4 {
   margin-right: 80px;
 }
 .sliding-doors span {
+  vertical-align: bottom;
   display: inline;
   color: #60869a;
 }
 .example {
   margin-top: 50px;
+  height: 300px;
+  background: url(../images/laptop.png) 455px 10px no-repeat;
+  position: relative;
+}
+.example img {
+  position: absolute;
+}
+.example .window1 {
+  top: 50px;
+  left: 200px;
+  z-index: 2;
+}
+.example .window2 {
+  top: 20px;
+  left: 100px;
+  opacity: 0.5;
+}
+.example .tidesdk-app {
+  top: 56px;
+  left: 250px;
 }
 .center-img {
   display: block;
@@ -384,6 +390,83 @@ h4 {
 }
 .footer .nav-right a:hover {
   text-decoration: underline;
+}
+.screen-slider {
+  width: 960px;
+  height: 559px;
+  position: relative;
+}
+.screen-slider img {
+  position: absolute;
+}
+.screen-slider .left,
+.screen-slider .right {
+  position: absolute;
+  top: 255px;
+  height: 53px;
+  width: 100px;
+  font-size: 14px;
+  color: #2f2f2f;
+  line-height: 53px;
+  text-decoration: none;
+}
+.screen-slider .left {
+  left: -90px;
+  background: url(../images/arrow-left.png) left center no-repeat;
+  padding-left: 25px;
+}
+.screen-slider .left:hover {
+  left: -100px;
+  -moz-transition: left 0.5s;
+  -webkit-transition: left 0.5s;
+  transition: left 0.5s;
+}
+.screen-slider .right {
+  right: -90px;
+  background: url(../images/arrow-right.png) right center no-repeat;
+  padding-right: 25px;
+  text-align: right;
+}
+.screen-slider .right:hover {
+  right: -100px;
+  -moz-transition: right 0.5s;
+  -webkit-transition: right 0.5s;
+  transition: right 0.5s;
+}
+.screen-slider .marker {
+  border-left: #f15623 solid 2px;
+  margin-left: 66px;
+  position: absolute;
+  top: 468px;
+  padding: 8px 0;
+  padding-left: 12px;
+  padding-top: 100px;
+}
+.screen-slider .marker a {
+  color: #f15623;
+  text-decoration: none;
+}
+.screen-slider .marker a:hover {
+  text-decoration: underline;
+}
+.screen-slider .slide-controller {
+  bottom: -20px;
+  right: 75px;
+}
+.slide-controller {
+  position: absolute;
+  height: 12px;
+}
+.slide-controller a {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  background: url(../images/progress.png) center no-repeat;
+  margin-right: 3px;
+}
+.slide-controller .active {
+  background: url(../images/progress-active.png) center no-repeat;
 }
 .cf:before,
 .cf:after {

@@ -107,7 +107,7 @@ body>div>div {
 }
 
 .heading, body>header h1, h1, h2, h3, h4, h5, h6 {
-    font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
+    font-family: "Exo", "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
 }
 
 .sans, body>header h2, article header p.meta, article>footer, #content .blog-index footer, html .gist .gist-file .gist-meta, #blog-archives a.category, #blog-archives time, aside.sidebar section, body>footer {
@@ -131,7 +131,8 @@ body>header h1 {
 }
 
 body>header h2 {
-    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif
+    font-family: "Exo", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    line-height: 1.6em
 }
 
 body {
@@ -146,7 +147,7 @@ h1 {
 
 @media only screen and (min-width: 992px) {
     body {
-        font-size: 1.15em
+        font-size: 1.00em
     }
 
     h1 {
@@ -660,7 +661,7 @@ body.sidebar-footer .toggle-sidebar {
 
 @media only screen and (min-width: 768px) {
     ul, ol {
-        margin-left: 0
+        margin-left: 1.3em
     }
 }
 
@@ -851,12 +852,13 @@ body>nav ul {
     body>nav form {
         float: right;
         text-align: left;
+        margin-right: -40px;
         padding-left: .8em;
-        width: 175px
+        width: 250px
     }
 
     body>nav form .search {
-        width: 93%;
+        width: 100%;
         font-size: .95em;
         line-height: 1.2em
     }
@@ -880,7 +882,7 @@ body>nav ul {
 
 @media only screen and (min-width: 992px) {
     body>nav form {
-        width: 215px
+        width: 250px
     }
 
     body>nav ul[data-subscription$=email]+form {
@@ -1126,7 +1128,7 @@ article>footer p.meta {
 }
 
 #content .blog-index article h1 {
-    font-size: 2.2em
+    font-size: 1.9em
 }
 
 #content .blog-index article h1 a {
@@ -1864,7 +1866,7 @@ aside.sidebar {
 }
 
 aside.sidebar section {
-    font-size: .8em;
+    font-size: .9em;
     line-height: 1.4em;
     margin-bottom: 1.5em
 }
@@ -2151,7 +2153,7 @@ body>footer p:last-child {
 }
 
 header[role="banner"] {
-    background-image: url(../images/tidebox.jpg);
+    background-image: url(../images/tidebox.png);
     background-repeat: no-repeat
 }
 
@@ -2181,7 +2183,8 @@ header[role="banner"] {
     }
 
     header[role="banner"] {
-        background-position: top right;
+        background-position: 101% 36px;
+        z-index: 100000;
     }
 }
 
