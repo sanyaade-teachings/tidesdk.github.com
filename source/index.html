@@ -3,7 +3,7 @@
 <head>
     <title>TideSDK | Create multi-platform desktop apps with HTML5, CSS3 and JavaScript</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="lib/css/main.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="lib/css/main.css?20120829" type="text/css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Exo:400,600' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="favicon.ico">
     <!--[if lt IE 9]>
@@ -181,19 +181,33 @@
                 <span>Blog</span>
             </li>
             <li>
-                <a href="https://groups.google.com/forum/#!forum/tidesdk" target="_blank" class="btn b8">Join our Mailing List</a>
+                <a href="https://groups.google.com/forum/#!forum/tidesdk" target="_blank" class="btn b8">Join our
+                    Mailing List</a>
                 <span>Google Groups</span>
             </li>
         </ul>
     </div>
 </div>
 
-<div class="grey map" style="margin-bottom: 80px;">
+<div class="grey map" id="map" style="margin-bottom: 80px;">
     <div class="wrapper">
         <h2>Start riding the tide <span>become part of our worldwide community</span></h2>
 
         <div class="world">
             <!--<span class="marker" style="top: 100px; left: 100px;"></span>-->
+        </div>
+        <div class="presenter">
+            <span class="avatar">
+            <img src="https://secure.gravatar.com/avatar/ce2b8ed18b8fe0a3dbafb09c49af7c64?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png">
+            </span>
+            <div class="info">
+                <h3><span>Christian Engel</span>
+                    <small>CTO at KISS</small>
+                </h3>
+                <b>TideSDK Role:</b> <span class="role">Developer Education Lead</span>
+            </div>
+            <div class="details"></div>
+            <span class="close">×</span>
         </div>
     </div>
 </div>
@@ -269,12 +283,16 @@
 <div class="backdrop"></div>
 <div class="modal">
     <h2>Heads up!</h2>
-    <p>We are currently transitioning from TitaniumDesktop and working feverishly to release our 1.3.0-beta. 1.3.0 will come with major library upgrades to support OSX Lion, Mountain Lion, Ubuntu 12.04, Windows 7 and 8. For current application development, please download 1.2.0RC4 in the interim.</p>
+
+    <p>We are currently transitioning from TitaniumDesktop and working feverishly to release our 1.3.0-beta. 1.3.0 will
+        come with major library upgrades to support OSX Lion, Mountain Lion, Ubuntu 12.04, Windows 7 and 8. For current
+        application development, please download 1.2.0RC4 in the interim.</p>
 
     <p>Follow TideSDK on Twitter to obtain the latest news and announcements on the upcoming 1.3.0 release.</p>
 
     <p>
-        <a href="https://github.com/TideSDK/TideSDK/downloads" class="download"><span>Continue to download</span></a><a href="http://twitter.com/tidesdk" target="_blank" class="btn">@tidesdk on Twitter</a>
+        <a href="https://github.com/TideSDK/TideSDK/downloads" class="download"><span>Continue to download</span></a><a
+            href="http://twitter.com/tidesdk" target="_blank" class="btn">@tidesdk on Twitter</a>
     </p>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
@@ -283,6 +301,7 @@
 <script src="lib/js/headline-show.js"></script>
 <script src="lib/js/timeline-animation.js"></script>
 <script src="lib/js/download-warning.js"></script>
+<script src="lib/js/developer-map.js"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-34456520-1']);
