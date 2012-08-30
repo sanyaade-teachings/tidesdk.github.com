@@ -75,18 +75,18 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 49px;
     margin-top: 80px;
     margin-bottom: 15px;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 41px;
     margin-bottom: 5px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 26px;
     text-align: left;
     margin-bottom: 0;
 }
@@ -216,6 +216,10 @@ h4 {
 }
 
 .sliding-doors {
+    h2 {
+        height: 55px;
+    }
+
     span {
         vertical-align: bottom;
         display: inline;
@@ -338,6 +342,9 @@ h4 {
 }
 
 .map {
+    position: relative;
+    overflow: hidden;
+
     .world {
         position: relative;
         width: 858px;
@@ -354,6 +361,7 @@ h4 {
             border: none;
             margin: 0;
             padding: 0;
+            cursor: pointer;
 
             &:after {
                 position: absolute;
@@ -363,6 +371,149 @@ h4 {
                 height: 44px;
                 content: "";
                 background: url(../img/marker.png);
+            }
+
+            &:hover {
+                &:after {
+                    top: -46px;
+                    -webkit-transition: 0.3s;
+                    -moz-transition: 0.3s;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+
+    .filter {
+        .marker {
+            &:after {
+                background-position: bottom;
+            }
+        }
+
+        .active {
+            &:after {
+                background-position: top;
+            }
+        }
+    }
+
+    .faces {
+        width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .avatar {
+        display: inline-block;
+        position: relative;
+        margin: 5px;
+        width: 60px;
+        height: 60px;
+        padding: 3px;
+        border-radius: 33px;
+        background: #fff;
+        -webkit-box-shadow: 1px 1px rgba(1, 2, 2, .18);
+        -moz-box-shadow: 1px 1px rgba(1, 2, 2, .18);
+        box-shadow: 1px 1px rgba(1, 2, 2, .18);
+        cursor: pointer;
+
+        &:hover {
+            -moz-transition: 0.3s;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            top: -2px;
+            -webkit-box-shadow: 1px 3px 3px rgba(1, 2, 2, .18);
+            -moz-box-shadow: 1px 3px 3px rgba(1, 2, 2, .18);
+            box-shadow: 1px 3px 3px rgba(1, 2, 2, .18);
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            background: #fff;
+        }
+
+        &.highlight {
+            background: @orange;
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            transition: 0.3s;
+        }
+    }
+
+    .filter .highlight {
+        background: #fff;
+    }
+
+    .presenter {
+        display: none;
+
+        padding: 5px;
+        background: #fff;
+        border: #e7e7e7 solid 1px;
+        width: 600px;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 30px;
+        /*bottom: 30px;
+        left: 50%;
+        margin-left: -305px;*/
+
+        .info {
+            display: inline-block;
+            vertical-align: top;
+            line-height: 1.5em;
+        }
+
+        .close {
+            position: absolute;
+            top: 5px;
+            right: 9px;
+            color: #666;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .details {
+            margin-left: 80px;
+            font-size: 12px;
+            width: 450px;
+            line-height: 1.5em;
+            padding-bottom: 10px;
+
+            a{
+                color: @orange;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .avatar:hover {
+            top: 0;
+            cursor: default;
+            -webkit-box-shadow: 1px 1px rgba(1, 2, 2, .18);
+            -moz-box-shadow: 1px 1px rgba(1, 2, 2, .18);
+            box-shadow: 1px 1px rgba(1, 2, 2, .18);
+        }
+
+        h3 {
+            font-size: 20px;
+            max-width: 500px;
+
+            span{
+                display: inline;
+            }
+
+            small {
+                font-size: 12px;
+                color: #757575;
+                white-space: nowrap;
             }
         }
     }
@@ -597,7 +748,7 @@ h4 {
         line-height: 1.5em;
     }
 
-    .download:after{
+    .download:after {
         content: "▶";
     }
 }
