@@ -4,7 +4,7 @@
   <title><![CDATA[TideSDK]]></title>
   <link href="http://TideSDK.github.com/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-08-27T21:43:03-05:00</updated>
+  <updated>2012-08-31T23:06:26-05:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TideSDK Branding Efforts Under Way]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/07/07/tidesdk-branding-efforts-under-way/"/>
+    <updated>2012-07-07T11:47:00-05:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/07/07/tidesdk-branding-efforts-under-way</id>
+    <content type="html"><![CDATA[<p>With TideSDK, we are seeking to achieve our own unique branding and community encompassing TiDesktop users. We are looking to extending this much further to embrace web developers and nodejs users. Our branding must encapsulate the organization that we are aspiring to be in the near future. It must also be flexible enough to extend to the branding of various projects that we will be involved with.</p>
+
+<p>While TideSDK is currently synonymous with the former Titanium Desktop, it has
+already become more than a single project. As we undertake efforts to formalize our roadmap, it is evident that TideSDK will become an umbrella for open innovation and technologies that target the desktop (and grow from there). We are continuing to focus on a release so developers can continue where Titanium Desktop left off. Look for more news on this shortly. In addition we have other intiatives underway. More will be said about this in future posts as we discuss the future and a truly exciting roadmap. We also hope to make an important announcement quite soon.</p>
+
+<p>David <a href="https://github.com/wass3r">https://github.com/wass3r</a> has been doing some amazing work with the development of our branding. These assets are beginning to appear in our <a href="https://github.com/TideSDK/TideSDK-Media">https://github.com/TideSDK/TideSDK-Media</a> repository. Next steps will be wireframing for our website together with other assets, and applying this across the website, blog, twitter page, documentation and in the art for the app installers. Here is a peek at some of what has been developed. Note that the alternate logo will be used where we are space constrained. We&#8217;d love to hear from you to obtain your feedback.</p>
+
+<p><img src="https://github.com/TideSDK/TideSDK-Media/raw/master/tide-logo/tidesdk-logo-spec.png" alt="TideSDK logo spec" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Atlassian Supports Open Source TideSDK]]></title>
