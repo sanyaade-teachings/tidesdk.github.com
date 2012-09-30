@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: blog | TideSDK]]></title>
+  <title><![CDATA[Category: blog | TideSDK Blog]]></title>
   <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2012-09-24T22:10:13-05:00</updated>
+  <updated>2012-09-29T22:52:28-05:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -12,6 +12,82 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TideSDK Project Update]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update/"/>
+    <updated>2012-09-29T14:23:00-05:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update</id>
+    <content type="html"><![CDATA[<p>It’s been a long time coming, but to ensure that you know that we are very active, we thought we dust off the blog and give you a brief update on the state of affairs regarding the project.</p>
+
+<p>Before we do, we want to send out a huge thanks to the community and their support. It’s been great to see the increased <a href="https://twitter.com/i/#!/search/?q=tidesdk">twitter</a> and <a href="https://groups.google.com/forum/?fromgroups#!forum/tidesdk">mailing list</a> activity. We love hearing from TideSDK’s users, old and new, and appreciate any feedback to help us make TideSDK more useful and easier to use.</p>
+
+<p>Over the last month, TideSDK has been downloaded over 4,800 times, we’ve doubled our twitter following and have gotten great questions and engagement on our mailing list. We also appreciate those that have dropped by our <a href="irc://chat.freenode.net#tidesdk">IRC channel</a> to ask questions or offer support.</p>
+
+<p><img src="/images/tidesdk-posts.png" alt="TideSDK stats" /> <em>(partial snapshot of recent buzz around "tidesdk" via <a href="http://www.social-searcher.com/?ie=UTF-8&amp;oe=UTF-8&amp;gplng=&amp;twloc=&amp;fbctr=&amp;q5mul=&amp;q5min=&amp;q5xct=&amp;ntw=&amp;psttyp=&amp;embd=&amp;fblike=&amp;twretwt=&amp;gpplsone=&amp;gpreshr=&amp;q5=tidesdk">Social Buzz</a>)</em></p>
+
+<p><img src="/images/spi-logo.png" alt="Software in the Public Interest" /> Further, we want to thank <a href="http://www.spi-inc.org/">Software in the Public Interest</a> (SPI) and its board members for taking us under their wings, as you may know by way of our twitter and mailing list updates. From the onset of the project, it has been in the plans to turn TideSDK into a non-profit organization. The reasons are straight forward - we want to ensure TideSDK’s long-term viability and support by enabling the additional support channels that SPI provides.</p>
+
+<p><img src="/images/so-logo.png" alt="Stack Overlow" /> Through the efforts of our fearless project lead, David Pratt (fairwinds), we were also able to secure our own <a href="http://stackoverflow.com/questions/tagged/tidesdk">Stack Overflow tag</a> to help users quickly surface relevant questions and solutions regarding the project. We are trying to address questions as they come up, but hope that the community at-large will be able to chip in with tips, tricks and questions alike.</p>
+
+<p>This brings us to the current state of things and some more juicy bits. Part of the reason the blog got a bit dusty is that our team members have been working feverishly on the next release (v1.3.0) and have been largely limited to 140 character activity aside from the occasional mailing list entry. We are aiming for a release in a couple of days, but here's how we anticipate the next releases will pan out:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th width="10%">Version</th>
+            <th width="15%">Date</th>
+            <th width="75%">Main Features</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.3.0</td>
+            <td>Oct. 1</td>
+            <td>&bull; Modern OS Support (Ubuntu 12.x, Lion, Mountain Lion, Windows 8)<br />&bull; Moving away from legacy code
+            </td>
+        </tr>
+        <tr>
+            <td>1.3.1</td>
+            <td>Oct. 3</td>
+            <td>&bull; Proxy fix: For the Windows port of TideSDK, proxy settings (on IE settings) are auto­detected by the SDK but are not used properly when executing an HTTP request.
+            </td>
+        </tr>
+        <tr>
+            <td>1.4.0</td>
+            <td>Late Oct.</td>
+            <td>&bull; Updated language packages (PHP, Python, Ruby)<br />&bull; Upgraded webkit lib to enable access to latest HTML5, CSS3 and WebGL features<br />&bull; TideBuilder, a replacement for Titanium Developer, to help you easily set up and package TideSDK projects
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>The goal is to put out a well tested, stable and up-to-date SDK that will enable you to tap into the advances in the different technologies and help you easily create cross platform apps with the skills you already have.</p>
+
+<p>Beyond the 1.4.0 release we have exciting ideas for TideSDK, some of them involving NodeJS and NPM. You’ll hear more about that as we flesh out the details.</p>
+
+<p>We have a great, global team in place right now, but are always looking for help. If you want to beta test the next release and help us identify bugs, are great at writing tutorials, or have C++ or other language knowledge, we’d be excited to talk to you.</p>
+
+<p>If any company is interested in sponsoring or able/willing to donate any hardware to this non-profit project, please don’t hesitate to contact us at <a href="mailto:info@tidesdk.org">info@tidesdk.org</a>.</p>
+
+<p>Lastly, we just want to reiterate some of the ways you can keep in touch with us - we hope to hear from you:</p>
+
+<ul>
+<li><a href="https://twitter.com/tidesdk">Twitter</a></li>
+<li><a href="https://groups.google.com/forum/?fromgroups#!forum/tidesdk">Mailing List</a></li>
+<li><a href="irc://chat.freenode.net#tidesdk">IRC</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/tidesdk">Stack Overflow</a></li>
+<li>Blog (you're looking at it)</li>
+</ul>
+
+
+<p>David Pratt (fairwinds) has also <a href="https://groups.google.com/d/topic/tidesdk/HhqR3Ba66xk/discussion">posted a more detailed update</a> on the mailing list, make sure to check it out and comment if you want additional information.</p>
+
+<p>Thanks,
+TideSDK Team</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TideSDK Branding Efforts Under Way]]></title>
@@ -98,21 +174,6 @@ $ git tag</p>
 1.2.0.RC1</p>
 
 <p>```</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Unit Testing Progressing with Drillbit]]></title>
-    <link href="http://TideSDK.github.com/blog/2012/06/21/unit-testing-progressing-with-drillbit/"/>
-    <updated>2012-06-21T10:26:00-05:00</updated>
-    <id>http://TideSDK.github.com/blog/2012/06/21/unit-testing-progressing-with-drillbit</id>
-    <content type="html"><![CDATA[<p>Our team has been working to get Drillbit running and sucessfully passing unit tests. This is in anticipation of connecting to our Continuous Integration system late this week. After a commit to our repository, TideSDK gets built on a variety of operating systems and the unit tests will be executed. This will advise the team of the status of these builds at any time and also provide downloads at the current state.</p>
-
-<p>There are a total of 4619 assertions made in the tests. Currently 85 tests are failing but this is already much better that where we started originally. We continue to progress. The unit test failures are primarily in the language and process modules.</p>
-
-<p>The following is a screenshot of the unit testing and current status:</p>
-
-<p><img src="http://tidesdk.github.com/images/drillbit-06212112.png" alt="June 21 Drillbit results" /></p>
 ]]></content>
   </entry>
   
