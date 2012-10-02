@@ -33,13 +33,13 @@ This brings us to the current state of things and some more juicy bits. Part of 
 	<tbody>
 		<tr>
 			<td>1.3.0</td>
-			<td>Oct. 1</td>
+			<td>Oct. 3*</td>
 			<td>&bull; Modern OS Support (Ubuntu 12.x, Lion, Mountain Lion, Windows 8)<br />&bull; Moving away from legacy code
 			</td>
 		</tr>
 		<tr>
 			<td>1.3.1</td>
-			<td>Oct. 3</td>
+			<td>Oct. 8*</td>
 			<td>&bull; Proxy fix: For the Windows port of TideSDK, proxy settings (on IE settings) are auto­detected by the SDK but are not used properly when executing an HTTP request.
 			</td>
 		</tr>
@@ -47,6 +47,11 @@ This brings us to the current state of things and some more juicy bits. Part of 
 			<td>1.4.0</td>
 			<td>Late Oct.</td>
 			<td>&bull; Updated language packages (PHP, Python, Ruby)<br />&bull; Upgraded webkit lib to enable access to latest HTML5, CSS3 and WebGL features<br />&bull; TideBuilder, a replacement for Titanium Developer, to help you easily set up and package TideSDK projects
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<em>* dates were updated Oct. 1st</em>
 			</td>
 		</tr>
 	</tbody>
