@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>TideSDK Project Update - TideSDK Blog</title>
+  <meta name="author" content="David Pratt (for TideSDK)">
+
+  
+  <meta name="description" content="It’s been a long time coming, but to ensure that you know that we are very active, we thought we dust off the blog and give you a brief update on the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.6.1.min.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="TideSDK Blog" type="application/atom+xml">
+    <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+  <link href="http://fonts.googleapis.com/css?family=Exo" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/"><span style="display:none">TideSDK Blog</span><img src="/images/logo-220x60.png" width="220" height="60" /></a></h1>
+  
+    <h2 id="header-subtitle"><span>Create multi-platform desktop apps</span> with HTML5, CSS3 and JavaScript</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:TideSDK.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">TideSDK Project Update</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-29T14:23:00-05:00" pubdate data-updated="true">Sep 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>It’s been a long time coming, but to ensure that you know that we are very active, we thought we dust off the blog and give you a brief update on the state of affairs regarding the project.</p>
+
+<p>Before we do, we want to send out a huge thanks to the community and their support. It’s been great to see the increased <a href="https://twitter.com/i/#!/search/?q=tidesdk">twitter</a> and <a href="https://groups.google.com/forum/?fromgroups#!forum/tidesdk">mailing list</a> activity. We love hearing from TideSDK’s users, old and new, and appreciate any feedback to help us make TideSDK more useful and easier to use.</p>
+
+<p>Over the last month, TideSDK has been downloaded over 4,800 times, we’ve doubled our twitter following and have gotten great questions and engagement on our mailing list. We also appreciate those that have dropped by our <a href="irc://chat.freenode.net#tidesdk">IRC channel</a> to ask questions or offer support.</p>
+
+<p><img src="/images/tidesdk-posts.png" alt="TideSDK stats" /> <em>(partial snapshot of recent buzz around &#8220;tidesdk&#8221; via <a href="http://www.social-searcher.com/?ie=UTF-8&amp;oe=UTF-8&amp;gplng=&amp;twloc=&amp;fbctr=&amp;q5mul=&amp;q5min=&amp;q5xct=&amp;ntw=&amp;psttyp=&amp;embd=&amp;fblike=&amp;twretwt=&amp;gpplsone=&amp;gpreshr=&amp;q5=tidesdk">Social Buzz</a>)</em></p>
+
+<p><img src="/images/spi-logo.png" alt="Software in the Public Interest" /> Further, we want to thank <a href="http://www.spi-inc.org/">Software in the Public Interest</a> (SPI) and its board members for taking us under their wings, as you may know by way of our twitter and mailing list updates. From the onset of the project, it has been in the plans to turn TideSDK into a non-profit organization. The reasons are straight forward - we want to ensure TideSDK’s long-term viability and support by enabling the additional support channels that SPI provides.</p>
+
+<p><img src="/images/so-logo.png" alt="Stack Overlow" /> Through the efforts of our fearless project lead, David Pratt (fairwinds), we were also able to secure our own <a href="http://stackoverflow.com/questions/tagged/tidesdk">Stack Overflow tag</a> to help users quickly surface relevant questions and solutions regarding the project. We are trying to address questions as they come up, but hope that the community at-large will be able to chip in with tips, tricks and questions alike.</p>
+
+<p>This brings us to the current state of things and some more juicy bits. Part of the reason the blog got a bit dusty is that our team members have been working feverishly on the next release (v1.3.0) and have been largely limited to 140 character activity aside from the occasional mailing list entry. We are aiming for a release in a couple of days, but here&#8217;s how we anticipate the next releases will pan out:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th width="10%">Version</th>
+            <th width="15%">Date</th>
+            <th width="75%">Main Features</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.3.0</td>
+            <td>Oct. 3*</td>
+            <td>&bull; Modern OS Support (Ubuntu 12.x, Lion, Mountain Lion, Windows 8)<br />&bull; Moving away from legacy code
+            </td>
+        </tr>
+        <tr>
+            <td>1.3.1</td>
+            <td>Oct. 8*</td>
+            <td>&bull; Proxy fix: For the Windows port of TideSDK, proxy settings (on IE settings) are auto­detected by the SDK but are not used properly when executing an HTTP request.
+            </td>
+        </tr>
+        <tr>
+            <td>1.4.0</td>
+            <td>Late Oct.</td>
+            <td>&bull; Updated language packages (PHP, Python, Ruby)<br />&bull; Upgraded webkit lib to enable access to latest HTML5, CSS3 and WebGL features<br />&bull; TideBuilder, a replacement for Titanium Developer, to help you easily set up and package TideSDK projects
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <em>* dates were updated Oct. 1st</em>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>The goal is to put out a well tested, stable and up-to-date SDK that will enable you to tap into the advances in the different technologies and help you easily create cross platform apps with the skills you already have.</p>
+
+<p>Beyond the 1.4.0 release we have exciting ideas for TideSDK, some of them involving NodeJS and NPM. You’ll hear more about that as we flesh out the details.</p>
+
+<p>We have a great, global team in place right now, but are always looking for help. If you want to beta test the next release and help us identify bugs, are great at writing tutorials, or have C++ or other language knowledge, we’d be excited to talk to you.</p>
+
+<p>If any company is interested in sponsoring or able/willing to donate any hardware to this non-profit project, please don’t hesitate to contact us at <a href="mailto:info@tidesdk.org">info@tidesdk.org</a>.</p>
+
+<p>Lastly, we just want to reiterate some of the ways you can keep in touch with us - we hope to hear from you:</p>
+
+<ul>
+<li><a href="https://twitter.com/tidesdk">Twitter</a></li>
+<li><a href="https://groups.google.com/forum/?fromgroups#!forum/tidesdk">Mailing List</a></li>
+<li><a href="irc://chat.freenode.net#tidesdk">IRC</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/tidesdk">Stack Overflow</a></li>
+<li>Blog (you&#8217;re looking at it)</li>
+</ul>
+
+
+<p>David Pratt (fairwinds) has also <a href="https://groups.google.com/d/topic/tidesdk/HhqR3Ba66xk/discussion">posted a more detailed update</a> on the mailing list, make sure to check it out and comment if you want additional information.</p>
+
+<p>Thanks,
+TideSDK Team</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">David May</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-29T14:23:00-05:00" pubdate data-updated="true">Sep 29<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/blog/'>blog</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update/" data-via="tidesdk" data-counturl="http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/07/07/tidesdk-branding-efforts-under-way/" title="Previous Post: TideSDK Branding Efforts Under Way">&laquo; TideSDK Branding Efforts Under Way</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/09/29/tidesdk-project-update/">TideSDK Project Update</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/07/tidesdk-branding-efforts-under-way/">TideSDK Branding Efforts Under Way</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/30/atlassian-supports-open-source-tidesdk/">Atlassian Supports Open Source TideSDK</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/25/continuous-integration-system-launched/">Jenkins Continuous Integration (CI) System Launched</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/21/history-of-titanium-desktop-tags/">History of Titanium Desktop Tags</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/21/unit-testing-progressing-with-drillbit/">Unit Testing Progressing with Drillbit</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/19/tidesdk-wiki-growing-to-support-users-and-developers/">TideSDK Wiki Growing to Support Users and Developers</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/16/marshall-culpepper-session-great-success/">Marshall Culpepper Session Great Success</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <a class="twitter-timeline" data-dnt=true href="https://twitter.com/tidesdk" data-widget-id="252142506366603264">Tweets by @tidesdk</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - David Pratt (for TideSDK) -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'tidesdkblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update/';
+        var disqus_url = 'http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

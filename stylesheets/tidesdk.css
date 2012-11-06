@@ -1,0 +1,347 @@
+/*------------------------------------*\
+    TideSDK Custom Stylesheet
+\*------------------------------------*/
+/*
+    Copyright and Attribution
+    ------------------------
+    The following copyright and attribution applies to this document:
+
+    copyright (c) 2012 David Pratt (For TideSDK)
+
+    CONTRIBUTORS
+    - David Pratt
+    - Christian Becker
+    - David May
+
+    COLORS 
+    base red - #f25623
+    base gray - #aaa
+*/
+
+
+
+
+/*------------------------------------*\
+    Bootstrap overrides
+\*------------------------------------*/
+/*
+Override some bootstrap default styles to match the design for the site
+*/
+
+.navbar-fixed-top, .navbar-static-top {
+    border-top: 4px solid #F25623;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-top: 40px;
+}
+
+.navbar .btn-navbar, .navbar .nav {
+    margin-top: 15px;
+}
+
+.navbar .nav > li > a.github, .navbar .nav > li > a.twitter {
+    padding: 8px 5px 10px;
+}
+
+.carousel-inner {
+    padding-bottom: 30px;
+}
+
+.carousel .item > img {
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    left: 15%;
+    width: 85%;
+    border-left: 2px solid #f25623;
+    height: 60px;
+    bottom: -30px;
+    background: transparent;
+    z-index: 10;
+}
+
+.carousel-caption > p {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: #aaa;
+    text-align: left;
+}
+
+.carousel-caption p span {
+    color: #f25623;
+}
+
+.carousel-control {
+    color: #ddd;
+    background: none;
+    border: none;
+    font-size: 150px;
+    opacity: 1;
+}
+
+.carousel-control:hover, .carousel-control:hover > span {
+    color: #444;
+    opacity: 1;
+}
+
+.carousel-control > span {
+    font-size: 12px;
+    color: #444;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.carousel-control > span.text-next, .carousel-control > span.text-prev {
+    position: absolute;
+    top: 15px;
+}
+
+.carousel-control > span.text-next {
+    right: 25px;
+    text-align: right;
+}
+
+.carousel-control > span.text-prev {
+    left: 25px;
+    text-align: left;
+}
+
+.carousel-control.right {
+    right: 0;
+}
+
+.carousel-control.left {
+    left: 0;
+} 
+
+.img-circle {
+    border: 2px solid #fff;
+}
+
+/*------------------------------------*\
+    World Map
+\*------------------------------------*/
+/*
+provide some general styles for the world map
+*/
+
+#world-map {
+    margin-top: 40px;
+}
+
+.continents { fill: #a9c7d2; stroke: none; stroke-width: 0; }
+
+.marker.selected {
+    border: 2px solid black;
+}
+
+
+/*------------------------------------*\
+    Global Styles
+\*------------------------------------*/
+/*
+generic styles
+*/
+
+.gray-bg {
+    background-color: #f1f1f1;
+    position: relative;
+    top: -71px;
+    z-index: 1;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 40px;
+}
+
+.gray-bg.map {
+    top: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    margin: 20px 0;
+    color: #888;
+}
+
+h1, h2 {
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    -webkit-text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+}
+
+h2.get-started {
+    margin: 20px 0 50px 0;
+}
+
+h1 strong, h2 strong {
+    font-weight: 600;
+}
+
+h3 {
+    font-family: Exo;
+    font-size: 24px;
+    font-weight: 400;
+    color: #222;
+    -webkit-text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+}
+
+.feed h3 {
+    line-height: 30px;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.steps {
+    background: url('../images/step-bg.png') no-repeat right center;
+}
+
+.gray-bg p {
+    padding-right: 50px;
+}
+
+
+
+/*------------------------------------*\
+    Text Rotator
+\*------------------------------------*/
+/*
+text rotator
+*/
+#textLang, #textOS {
+    display: inline-block;
+    color: #648599;
+    font-weight: 600;
+}
+
+
+/* orange button */
+
+.primary-btn {
+    display: inline-block;
+    padding-left: 22px;
+    border-top: #F27549 solid 1px;
+    border-right: #D94F20 solid 1px;
+    border-bottom: #D94F20 solid 1px;
+    border-left: #F27549 solid 1px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #E4280B;
+    font-size: 16px;
+    line-height: 45px;
+    color: white;
+    background: #F25623;
+    -webkit-box-shadow: 1px 1px 0 #E3E3E3;
+    -moz-box-shadow: 1px 1px 0 #e3e3e3;
+    box-shadow: 1px 1px 0 #E3E3E3;
+}
+
+.primary-btn:after {
+    content: "▼";
+    display: inline-block;
+    width: 43px;
+    margin-left: 22px;
+    border-left: #F3A285 solid 1px;
+    text-align: center;
+    line-height: 43px;
+    vertical-align: top;
+    background: #F47950;
+}
+
+.primary-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 2px #E3E3E3;
+    -moz-box-shadow: 2px 2px 2px #e3e3e3;
+    box-shadow: 2px 2px 2px #E3E3E3;
+}
+
+/* blue button */
+
+.secondary-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #618497;
+    background: #BED7E2;
+    -webkit-box-shadow: 1px 1px 2px #618497;
+    -moz-box-shadow: 1px 1px 2px #618497;
+    box-shadow: 1px 1px 2px #618497;
+}
+
+.secondary-btn:hover {
+    color: #658898;
+    -webkit-box-shadow: 2px 2px 2px #618497;
+    -moz-box-shadow: 2px 2px 2px #618497;
+    box-shadow: 2px 2px 2px #618497;
+}
+
+.langlist {
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    margin: 0 0 0 15%;
+}
+
+.langlist li {
+    margin: 0 0 10px 0;
+    color: #888;
+}
+
+.langlist i {
+
+}
+
+.people {
+    list-style-type: none;
+}
+
+.people > li {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    border-radius: 60px;
+    border: 4px solid #fff;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+.help-links a {
+    width: 85%;
+}
+
+.help-links-add {
+    margin: 0;
+}
+
+.help-links-add > li {
+    height: 54px;
+    margin: 0 0 10px 0;
+    line-height: 64px;
+}
+
+.ty > img {
+    margin: 0 20px 0 0;
+}

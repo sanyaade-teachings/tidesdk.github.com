@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blog | TideSDK Blog]]></title>
+  <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://TideSDK.github.com/"/>
+  <updated>2012-10-01T21:36:13-05:00</updated>
+  <id>http://TideSDK.github.com/</id>
+  <author>
+    <name><![CDATA[David Pratt (for TideSDK)]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[TideSDK Project Update]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update/"/>
+    <updated>2012-09-29T14:23:00-05:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/09/29/tidesdk-project-update</id>
+    <content type="html"><![CDATA[<p>It’s been a long time coming, but to ensure that you know that we are very active, we thought we dust off the blog and give you a brief update on the state of affairs regarding the project.</p>
+
+<p>Before we do, we want to send out a huge thanks to the community and their support. It’s been great to see the increased <a href="https://twitter.com/i/#!/search/?q=tidesdk">twitter</a> and <a href="https://groups.google.com/forum/?fromgroups#!forum/tidesdk">mailing list</a> activity. We love hearing from TideSDK’s users, old and new, and appreciate any feedback to help us make TideSDK more useful and easier to use.</p>
+
+<p>Over the last month, TideSDK has been downloaded over 4,800 times, we’ve doubled our twitter following and have gotten great questions and engagement on our mailing list. We also appreciate those that have dropped by our <a href="irc://chat.freenode.net#tidesdk">IRC channel</a> to ask questions or offer support.</p>
+
+<p><img src="/images/tidesdk-posts.png" alt="TideSDK stats" /> <em>(partial snapshot of recent buzz around "tidesdk" via <a href="http://www.social-searcher.com/?ie=UTF-8&amp;oe=UTF-8&amp;gplng=&amp;twloc=&amp;fbctr=&amp;q5mul=&amp;q5min=&amp;q5xct=&amp;ntw=&amp;psttyp=&amp;embd=&amp;fblike=&amp;twretwt=&amp;gpplsone=&amp;gpreshr=&amp;q5=tidesdk">Social Buzz</a>)</em></p>
+
+<p><img src="/images/spi-logo.png" alt="Software in the Public Interest" /> Further, we want to thank <a href="http://www.spi-inc.org/">Software in the Public Interest</a> (SPI) and its board members for taking us under their wings, as you may know by way of our twitter and mailing list updates. From the onset of the project, it has been in the plans to turn TideSDK into a non-profit organization. The reasons are straight forward - we want to ensure TideSDK’s long-term viability and support by enabling the additional support channels that SPI provides.</p>
+
+<p><img src="/images/so-logo.png" alt="Stack Overlow" /> Through the efforts of our fearless project lead, David Pratt (fairwinds), we were also able to secure our own <a href="http://stackoverflow.com/questions/tagged/tidesdk">Stack Overflow tag</a> to help users quickly surface relevant questions and solutions regarding the project. We are trying to address questions as they come up, but hope that the community at-large will be able to chip in with tips, tricks and questions alike.</p>
+
+<p>This brings us to the current state of things and some more juicy bits. Part of the reason the blog got a bit dusty is that our team members have been working feverishly on the next release (v1.3.0) and have been largely limited to 140 character activity aside from the occasional mailing list entry. We are aiming for a release in a couple of days, but here's how we anticipate the next releases will pan out:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th width="10%">Version</th>
+            <th width="15%">Date</th>
+            <th width="75%">Main Features</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.3.0</td>
+            <td>Oct. 3*</td>
+            <td>&bull; Modern OS Support (Ubuntu 12.x, Lion, Mountain Lion, Windows 8)<br />&bull; Moving away from legacy code
+            </td>
+        </tr>
+        <tr>
+            <td>1.3.1</td>
+            <td>Oct. 8*</td>
+            <td>&bull; Proxy fix: For the Windows port of TideSDK, proxy settings (on IE settings) are auto­detected by the SDK but are not used properly when executing an HTTP request.
+            </td>
+        </tr>
+        <tr>
+            <td>1.4.0</td>
+            <td>Late Oct.</td>
+            <td>&bull; Updated language packages (PHP, Python, Ruby)<br />&bull; Upgraded webkit lib to enable access to latest HTML5, CSS3 and WebGL features<br />&bull; TideBuilder, a replacement for Titanium Developer, to help you easily set up and package TideSDK projects
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <em>* dates were updated Oct. 1st</em>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>The goal is to put out a well tested, stable and up-to-date SDK that will enable you to tap into the advances in the different technologies and help you easily create cross platform apps with the skills you already have.</p>
+
+<p>Beyond the 1.4.0 release we have exciting ideas for TideSDK, some of them involving NodeJS and NPM. You’ll hear more about that as we flesh out the details.</p>
+
+<p>We have a great, global team in place right now, but are always looking for help. If you want to beta test the next release and help us identify bugs, are great at writing tutorials, or have C++ or other language knowledge, we’d be excited to talk to you.</p>
+
+<p>If any company is interested in sponsoring or able/willing to donate any hardware to this non-profit project, please don’t hesitate to contact us at <a href="mailto:info@tidesdk.org">info@tidesdk.org</a>.</p>
+
+<p>Lastly, we just want to reiterate some of the ways you can keep in touch with us - we hope to hear from you:</p>
+
+<ul>
+<li><a href="https://twitter.com/tidesdk">Twitter</a></li>
+<li><a href="https://groups.google.com/forum/?fromgroups#!forum/tidesdk">Mailing List</a></li>
+<li><a href="irc://chat.freenode.net#tidesdk">IRC</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/tidesdk">Stack Overflow</a></li>
+<li>Blog (you're looking at it)</li>
+</ul>
+
+
+<p>David Pratt (fairwinds) has also <a href="https://groups.google.com/d/topic/tidesdk/HhqR3Ba66xk/discussion">posted a more detailed update</a> on the mailing list, make sure to check it out and comment if you want additional information.</p>
+
+<p>Thanks,
+TideSDK Team</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TideSDK Branding Efforts Under Way]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/07/07/tidesdk-branding-efforts-under-way/"/>
+    <updated>2012-07-07T11:47:00-05:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/07/07/tidesdk-branding-efforts-under-way</id>
+    <content type="html"><![CDATA[<p>With TideSDK, we are seeking to achieve our own unique branding and community encompassing TiDesktop users. We are looking to extending this much further to embrace web developers and nodejs users. Our branding must encapsulate the organization that we are aspiring to be in the near future. It must also be flexible enough to extend to the branding of various projects that we will be involved with.</p>
+
+<p>While TideSDK is currently synonymous with the former Titanium Desktop, it has
+already become more than a single project. As we undertake efforts to formalize our roadmap, it is evident that TideSDK will become an umbrella for open innovation and technologies that target the desktop (and grow from there). We are continuing to focus on a release so developers can continue where Titanium Desktop left off. Look for more news on this shortly. In addition we have other intiatives underway. More will be said about this in future posts as we discuss the future and a truly exciting roadmap. We also hope to make an important announcement quite soon.</p>
+
+<p>David <a href="https://github.com/wass3r">https://github.com/wass3r</a> has been doing some amazing work with the development of our branding. These assets are beginning to appear in our <a href="https://github.com/TideSDK/TideSDK-Media">https://github.com/TideSDK/TideSDK-Media</a> repository. Next steps will be wireframing for our website together with other assets, and applying this across the website, blog, twitter page, documentation and in the art for the app installers. Here is a peek at some of what has been developed. Note that the alternate logo will be used where we are space constrained. We'd love to hear from you to obtain your feedback.</p>
+
+<p><img src="https://github.com/TideSDK/TideSDK-Media/raw/master/tide-logo/tidesdk-logo-spec.png" alt="TideSDK logo spec" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Atlassian Supports Open Source TideSDK]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/30/atlassian-supports-open-source-tidesdk/"/>
+    <updated>2012-06-30T09:35:00-05:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/30/atlassian-supports-open-source-tidesdk</id>
+    <content type="html"><![CDATA[<p><a href="http://www.atlassian.com">Atlassian</a> strongly believes in open source software. They support and contribute to the open source community in a number of ways — supplying their own code, supporting other projects by donating software, and sponsoring Java User Groups.</p>
+
+<p>We are both extremely pleased and grateful that Atlassian has descided to support our open source effort with TideSDK. As a result, we have received the following assistance:</p>
+
+<ul>
+<li>JIRA OnDemand 2000 Users (Community)</li>
+<li>GreenHopper for JIRA OnDemand 2000 Users (Community)</li>
+<li>Bonfire for JIRA OnDemand 2000 Users (Community)</li>
+<li>FishEye/Crucible OnDemand 2000 Users (Community)</li>
+<li>Bamboo OnDemand 100 Remote Agents, Unlimited Jobs (Community)</li>
+<li>Confluence OnDemand 2000 Users (Community)</li>
+</ul>
+
+
+<p>In fact, we've already been making great use of the software. <a href="https://github.com/nazcasistemas">nazcasistemas</a> has imported the legacy of Titanium Desktop for reference while <a href="https://github.com/dubcanada">dubcanada</a> has reviewed the issue history for issues we are bringing forward for categorization and to align these with our release goals.</p>
+
+<p>Many thanks Atlassian for your generous support!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Jenkins Continuous Integration (CI) System Launched]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/25/continuous-integration-system-launched/"/>
+    <updated>2012-06-25T11:07:00-05:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/25/continuous-integration-system-launched</id>
+    <content type="html"><![CDATA[<p>Our team has been working hard to build the software inherited from Appcelerator across all supported operating systems. More than clean builds, we are looking for the execution of automated tests as well as the artefacts from each build.</p>
+
+<p>Building TideSDK is extremely time consuming. Our developers must be also be in tune with impacts of commits to the repository on the code base across operating systems. We tweeted not so long ago that Matt <a href="https://github.com/matthewh">https://github.com/matthewh</a> has recently helped the project with server capacity for our Continuous integration (CI) system. He has also been working to get Jenkins set up and configured.</p>
+
+<p>We were pleased to have our first passing build on MacOSX 10.6.8 on Jenkins, June 24. This was an important milestone for us.</p>
+
+<p><img src="http://tidesdk.github.com/images/jenkins-ci.png" alt="Jenkins CI" /></p>
+
+<p>Virtual machines are now being setup for MacOSX 10.7.3, Windows 7 and for Linux. We plan to support Ubuntu and Fedora to start. This may be expanded.</p>
+
+<p>One of the great features of continuous builds is the artefacts obtained followin each build. Our users will benefit from Nightly Builds that we will be making available to tha the current state of our software can be evaluated. Look for a <em>Nightly builds</em> link on our website at <a href="http://www.tidesdk.org">http://www.tidesdk.org</a> shortly.</p>
+
+<p>Find out more about TideSDK by joining our <a href="https://groups.google.com/forum/#!forum/tidesdk">mailing list</a> at or drop by our irc at #tidesdk on freenode.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[History of Titanium Desktop Tags]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/21/history-of-titanium-desktop-tags/"/>
+    <updated>2012-06-21T15:01:00-05:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/21/history-of-titanium-desktop-tags</id>
+    <content type="html"><![CDATA[<p>Inheriting a project can make for some surprises. One recently for me has been reviewing the Tag history in Git. To my surprise, much of the tag history of Titanium Deskto is, well, just not available.</p>
+
+<p>Up until the time Appcelerator decided to discontinue the project, there was a progression of release candidates (RC's) publicly to 1.2.0.RC6e. That said, where are the tags? Perhaps someone from Appcelerator can fully explain. Creating a tags are a helpful legacy. I invite the maintainers to comment on this.</p>
+
+<p>```
+$ git tag</p>
+
+<p>0.6
+0.7
+0.8
+0.8.1
+0.8.4
+0.8.5
+1.0.0
+1.1.0
+1.2.0.RC1</p>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>
