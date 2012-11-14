@@ -113,13 +113,17 @@ define(['modules/modal', 'text!./donation/template.html', 'modules/ui/slider'], 
         }
     });
 
+    var first_open = true;
     var obj = {
         show:function () {
             my_modal.open();
 
-            setTimeout(function () {
-                main_slider.set(12);
-            }, 1000);
+            if(first_open){
+                first_open = false;
+                setTimeout(function () {
+                    main_slider.set(12);
+                }, 1000);
+            }
         }
     }
 
