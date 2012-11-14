@@ -12,7 +12,7 @@ define(['modules/modal', 'modules/donation', 'text!./download/template.html'], f
 
     my_modal.el.html(template);
 
-    $('.download-columns a').click(function(){
+    $('.sdk-download a').click(function(){
         my_modal.close();
         donation.show();
     });
