@@ -34,27 +34,31 @@ define(['modules/modal', 'text!./donation/template.html', 'modules/ui/slider'], 
 
     main_slider.appendTo($slider_area);
 
-    $('form', $wgt).bind('submit', function(e){
-       if(detail_mode){
-           e.preventDefault();
-           e.stopPropagation();
+    $('form', $wgt).bind('submit', function (e) {
+        if (detail_mode) {
+            e.preventDefault();
+            e.stopPropagation();
 
-           require(['collector_api'], function(api){
-               var dta = {};
-                for(var i = 0; i < sliders.length; i++){
+            require(['collector_api'], function (api) {
+                var dta = {};
+                for (var i = 0; i < sliders.length; i++) {
                     dta[sliders[i].hash] = sliders[i].value;
                 }
-               api.request({
-                   method: 'POST',
-                   url: 'http://social-rockstar.com/tide_collector/donation',
-                   data: dta,
-                   callback: function(){
-                       detail_mode = false;
-                       $('form', $wgt)[0].submit();
-                   }
-               });
-           });
-       }
+                api.request({
+                    method:'POST',
+                    url:'http://social-rockstar.com/tide_collector/donation',
+                    data:dta,
+                    error:function () {
+                        detail_mode = false;
+                        $('form', $wgt)[0].submit();
+                    },
+                    callback:function () {
+                        detail_mode = false;
+                        $('form', $wgt)[0].submit();
+                    }
+                });
+            });
+        }
     });
 
     $('.btn-slim', $wgt).click(function (e) {
@@ -118,7 +122,7 @@ define(['modules/modal', 'text!./donation/template.html', 'modules/ui/slider'], 
         show:function () {
             my_modal.open();
 
-            if(first_open){
+            if (first_open) {
                 first_open = false;
                 setTimeout(function () {
                     main_slider.set(12);
