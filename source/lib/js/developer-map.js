@@ -10,7 +10,7 @@
 
     $presenter = $('.map .presenter');
 
-    $.getJSON('lib/data/profiles.json?1', function (response) {
+    $.getJSON('lib/data/profiles.json?2', function (response) {
         init(response);
     });
 

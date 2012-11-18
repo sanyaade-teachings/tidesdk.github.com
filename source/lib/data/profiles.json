@@ -144,7 +144,7 @@
         "description":"Matthew is a project manager and Python/Javascript programmer for a cyber security firm. When he isn't programming he's out in the garage disassembling antique trucks and rebuilding them with electric engines and modern amenities."
     },
     {
-        "name":"Mitchel Amihod",
+        "name":"Mitchell Amihod",
         "community-role":"TideSDK Team",
         "tidesdk-role":"Developer",
         "photo":"http://distilleryimage5.s3.amazonaws.com/5b5aa62ad3a911e1b62722000a1e8b36_7.jpg",
@@ -302,5 +302,21 @@
             "y":116
         },
         "description":"During the last ten years, I have co-founded four start-ups, traveled the world and studied engineering while delivering solutions to Neam AB's clients.<br>Technically, I am fluent in cutting edge web technology and methods, with a major interest in data visualization and personal data mining.<br>Personally, I believe in open mindedness, rationality and honesty, and fill my free time with travel, social events and music of all sorts."
+    },
+    {
+        "name":"Carl Lobo",
+        "community-role":"TideSDK Team",
+        "tidesdk-role":"Programmer",
+        "photo":"http://en.gravatar.com/carllobo",
+        "avatar":"http://1.gravatar.com/avatar/9e1d538884d8d4bfb0f1512dbfdd07a4?size=60",
+        "business":"Geodesic Ltd",
+        "title":"Vice-President Technology and Operations",
+        "city":"Mumbai",
+        "country":"India",
+        "pos":{
+            "x":591,
+            "y":248
+        },
+        "description":"Someone who's passionate about technology. "
     }
 ]
