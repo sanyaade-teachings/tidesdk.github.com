@@ -208,22 +208,6 @@
         "description":"I've been hooked on open source software for over a decade and love collaborating with healthy, productive communities to create software that makes people happier. Currently I spend my time hacking on WebKit, GNOME, and Cairo, making sure all the little pixels catch the bus on time."
     },
     {
-        "name":"Christian Engel",
-        "community-role":"TideSDK Team",
-        "tidesdk-role":"Developer Education Lead / Frontend Developer",
-        "photo":"http://graph.facebook.com/paratron/picture?type=large",
-        "avatar":"https://secure.gravatar.com/avatar/ce2b8ed18b8fe0a3dbafb09c49af7c64?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-        "business":"KISS",
-        "title":"CTO",
-        "city":"Frankfurt am Main",
-        "country":"Germany",
-        "pos":{
-            "x":437,
-            "y":161
-        },
-        "description":"Chris is a computerfreak, who's interested in everything digital. During the last few years he has been highly active in the web-scene, because he's fascinated about the symbiosis of services and data there. He's currently working for a web design company in Frankfurt, Germany together with Christian Becker."
-    },
-    {
         "name":"Christian Becker",
         "community-role":"TideSDK Team",
         "tidesdk-role":"Joint Lead: UI & Design",
