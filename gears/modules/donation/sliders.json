@@ -1,0 +1,38 @@
+[
+    {
+        "label":"Provide greater capabilities to create native widgets",
+        "min":0,
+        "max":100,
+        "value":2
+    },
+    {
+        "label":"Fully integrate node.js capabilities and modules",
+        "min":0,
+        "max":100,
+        "value":2
+    },
+    {
+        "label":"Provide capability to customize app installers",
+        "min":0,
+        "max":100,
+        "value":2
+    },
+    {
+        "label":"Improve guides and documentation for TideSDK",
+        "min":0,
+        "max":100,
+        "value":2
+    },
+    {
+        "label":"Develop more powerful CLI and GUI apps for development",
+        "min":0,
+        "max":100,
+        "value":2
+    },
+    {
+        "label":"Improve the HTML5 and CSS3 capabilities of TideSDK",
+        "min":0,
+        "max":100,
+        "value":2
+    }
+]
