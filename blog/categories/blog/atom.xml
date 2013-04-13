@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | TideSDK Blog]]></title>
   <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://TideSDK.github.com/"/>
-  <updated>2013-04-13T13:14:50-03:00</updated>
+  <updated>2013-04-13T13:35:28-03:00</updated>
   <id>http://TideSDK.github.com/</id>
   <author>
     <name><![CDATA[David Pratt (for TideSDK)]]></name>
@@ -30,7 +30,7 @@
 
 <p>In fact, we anticipated and want broader code contribution. Our aspirations also included some measure of financial sustainability - enough to fund our core developers (at least part-time) and to provide the necessary resources for our team (to work together with other open code contributors) for a broad and public benefit.</p>
 
-<p>To illustrate, more than 99% of the more than 1.35 million line changes contributed to our sources code since TideSDK began were made by two people. This was the result of efforts exceeding full time hours over a extended period of time.</p>
+<p>To illustrate, more than 99% of the more than 1.35 million line changes contributed to our source code since TideSDK began were made by two people. This was the result of efforts exceeding full time hours over a extended period of time.</p>
 
 <p>At some point over the past months, we began asking ourselves hard questions about sustainability in a harsh and realistic way (while we considered the human and financial inputs for the project). Practical decisions must be made in relation to these factors on the timing of deliverables for the project.</p>
 
